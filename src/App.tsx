@@ -633,7 +633,7 @@ export default function App() {
           <div className="flex flex-wrap items-end justify-between gap-4 mb-12">
             <SectionLabel text="04 / RESUME" />
             <a
-              href="/Heather_Ysbrand_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Heather_Ysbrand_Resume.pdf`}
               download="Heather_Ysbrand_Resume.pdf"
               className="font-mono text-xs tracking-widest px-5 py-2.5 border border-[var(--color-teal)] text-[var(--color-teal)] hover:bg-[var(--color-teal)] hover:text-[var(--color-bg)] transition-colors rounded-sm"
             >
@@ -854,7 +854,7 @@ export default function App() {
           </a>
 
           <a
-            href="/Heather_Ysbrand_Resume.pdf"
+            href={`${import.meta.env.BASE_URL}Heather_Ysbrand_Resume.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             className="font-mono text-xs text-[var(--color-dim)] hover:text-[var(--color-teal)] transition-colors"
