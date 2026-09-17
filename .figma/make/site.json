@@ -1,0 +1,10 @@
+{
+  "description": "Showcases a computer programming student's skills, projects, experience, and contact info in a clean, professional portfolio for career growth.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
